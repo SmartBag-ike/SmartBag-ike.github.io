@@ -5,6 +5,7 @@
 <meta charset="UTF-8">
 
 <style>
+@font-face { font-family: SuperMario286; src: url('SuperMario286.ttf'); } 
 p
 {
     font-family: Verdana, sans-serif;
@@ -27,15 +28,48 @@ h2{
 font-family: Verdana;
 font-size: 12px;
 color: white;
+}
+h3{
+font-family: SuperMario286;
+font-size: 100px;
+color: white;
+text-shadow: 11px 10px 10px black;
+-webkit-text-stroke-width: 2.5px;
+-webkit-text-stroke-color: black;
+text-size-adjust: none;
 
 }
+h4{
+font-family: SuperMario286;
+font-size: 50px;
+color: white;
+text-shadow: 11px 10px 10px black;
+-webkit-text-stroke-width: 2.5px;
+-webkit-text-stroke-color: black;
+text-size-adjust: none;
+
+}
+
 body{
      background-image: url(backgrounds/background3.jpg);
 	 background-repeat: no-repeat;
 	 background-size: cover;
 	 background-attachment: fixed;	 
 }
-
+.logo-choix-header{
+     background: url(images/logo-final-smartbag-ike3.png);
+	 background-size : 600px 600px;
+	 width : 600px;
+	 height : 600px;
+     margin-left: 800px;
+	 margin-right: auto;
+	 transition: transform 0.5s;
+}
+.logo-choix-header:hover
+{
+	transform: scale(1.3);
+	transition: transform 1.5s;
+	}
 </style>   
 <title>SmartBag-ike</title>
 
@@ -63,11 +97,20 @@ body{
 <a href="Choix.html">
 <img src="Choix_button.png" width="220" height="96" style ="position: absolute; top: 10px; left: 1050px;" onmouseover="this.src='Choix_button_animatedaf.png'" onmouseout="this.src='choix_button.png'" />
 </a>
-<h1 style ="position: absolute; top: 500px; left: 850px;">Page en développement...</h1>
+<h1 style ="position: absolute; top: 1500px; margin-left: 900px;">Page en développement...</h1>
 </figure>
+<image>
+<div class="logo-choix-header" style="position: absolute; top: 450px";>
+</div>
+<text>
+<h3 style ="position: absolute; top: 150px;  margin-left: 550px;">Choix : L'ecoconception</h3>
+<h4 style ="position: absolute; top: 1000px;  margin-left: 150px;">I. Etude sur la batterie.</h4>
+<h4 style ="position: absolute; top: 2000px;  margin-left: 150px;">II. Etude sur le panneau photovoltaïque.</h4>
+<h4 style ="position: absolute; top: 3000px;  margin-left: 150px;">III. Etude sur la composition du sac-à-dos.</h4>
+</text>
 <footer>
-<img src="footer_web.png" width="1980" height="80" style ="position: absolute; top: 3050px; left:80px";/>
-<p style ="position: absolute; top: 3050px; left:600px">Projet de SIN TSTI2D / SmartBag-ike ©2020. Site par Emre Dilmac</p>
+<img src="footer_web.png" width="1980" height="80" style ="position: absolute; top: 3550px; left:80px";/>
+<p style ="position: absolute; top: 3550px; left:600px">Projet de SIN TSTI2D / SmartBag-ike ©2020. Site par Emre Dilmac</p>
 </footer>
 
 </body>

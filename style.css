@@ -3,22 +3,12 @@ p
     font-family: Verdana, sans-serif;
 	font-size: 28px;
 	color: white;
-	text-border: 6px black solid;
+	text-border: 2px black solid;
    -webkit-text-stroke-color: black;
 }
 h1{
    font-family: Comic Sans MS, sans-serif;
-   font-size: 20px;	
-   color: white;
-   font-weight: bold;
-   text-border: 6px black solid;
-   text-shadow: 4px 3px 3px black;
-   -webkit-text-stroke-width: 0.7px;
-   -webkit-text-stroke-color: black;
-}
-h2{
-   font-family: Comic Sans MS, sans-serif;
-   font-size: 35px;	
+   font-size: 40px;	
    color: white;
    font-weight: bold;
    text-border: 6px black solid;
@@ -26,36 +16,55 @@ h2{
    -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: black;
 }
-h3{
-  font-family: 'SuperMario286', sans-serif;
-  font-weight:normal;
-  font-style:normal;
-  margin: 100px auto;
-}
-h4{
-font-family: Arial;
+h2{
+font-family: Verdana;
+font-size: 12px;
 color: white;
+
 }
 body{
-     background-image: url(background1.png);
+     background-image: url(backgrounds/background1.jpg);
 	 background-repeat: no-repeat;
 	 background-size: cover;
-	 background-attachment: fixed;
+	 background-attachment: fixed;	 
 }
 .slider{
  width: 512px;
  height: 512px;
  background: url(logo1.png);
- margin: 100px auto ;
- animation: slide 12s infinite; 
- transition-delay: 2s;
+ box-shadow: 0 14px 14px 0 rgba(0,0,0,.25);
+ margin: 100px auto;
+ transition: transform 0.8s;
+
+ 
+ animation-name: slide; 
+ animation-direction:alternate-reverse;
+ animation-duration:14s ;
+ animation-fill-mode:forwards ;
+ animation-iteration-count:infinite ;
+ animation-play-state:running ;
+ animation-timing-function:ease-in-out ;
 }
 
 @keyframes slide{
- 50%{
- background: url(bagprotot.png);
+ 20%{
+ background: url(SmartBag-ike-clignotant-animation.gif);
  }
- 100%{
+ 40%{
  background: url(logo1.png);
  }
+ 60%{
+ background: url(SmartBag-ike-clignotant-animation.gif);
+ }
+ }
+.slider:hover
+{
+	transform: scale(1.2);
+	transition: transform 0.5s;
+	
+}
+.home_button {
+ }
+.home_button:hover
+	transition: transform 0.25s;
 }

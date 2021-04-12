@@ -80,6 +80,11 @@ body{
 	 background-size: cover;
 	 background-attachment: fixed;
 }
+video{
+top: 340px;
+left:400px;
+position: absolute;
+}
 nav menus{
 	position: fixed;
  	list-style: none;
@@ -154,6 +159,11 @@ left: 60px;
 width: 870px;
 height: 110px;
 } 
+top: 340px;
+left: 250px;
+width: 500px;
+height: 585px;
+}
 p{
 font-size: 15px;
 }

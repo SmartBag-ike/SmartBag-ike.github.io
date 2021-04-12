@@ -16,36 +16,43 @@
 
 <body background="backgrounds/background1.jpg">
 <header>
-<img src="header web.png" width="1880" height="170" style ="position: absolute; top: 0px; left:245px";/>
+<nav>
+			<ul id="menus">	
+			<img src="header web.png" width="1880" height="170" style ="position: absolute; top: 0px; left:245px";/>
+			<a href="index.html">
+			<img id="icone-home" src="home_button.png" onmouseover="this.src='home_button_animatedaf.png'" onmouseout="this.src='home_button.png'"/>
+					<ul>
+						<a href="presentation.html"><div class="nav-menu" id="carre1">Présentation</div></a>  
+						<a href="details.html"><div class="nav-menu" id="carre2">Détails/Modèles</div></a> 
+						 <a href="choix.html"><div class="nav-menu" id="carre3">Choix</div></a>
+					</ul>
+			</ul>
+</nav>
 </header>
-<header>
+<section>
 <div style="position: absolute; top: 400px; left: 830px;" class="slider">
 </div>
-<p style="position: absolute; top: 50px;">Version ordinateur/desktop</p>
+<p style="position: absolute; top: 50px;">Version ordinateur/WAKENHUS</p>
 <h1 style ="position: absolute; top: 1080px; left:130px;">SmartBag-ike est un sac intelligent qui assure la sécurité</h1>
 <h1 style ="position: absolute; top: 1080px; left:1280px;">des cyclistes dans la vie quotidienne!</h1>
 <img src="header_title_smartbag.gif" height="250" width="1080" alt="smartest-bag" style ="position: absolute; top: 180px; left:550px;" />
-</header>
-<figure>
-<div class="home_button">
-<a href="index.html">
-<img src="home_button.png" width="92" height="92" style ="position: absolute; top: 10px; left: 1350px;" onmouseover="this.src='home_button_animatedaf.png'" onmouseout="this.src='home_button.png'"/>
-</a>
-</div>
-<a href="presentation.html">
-<img src="presentation_butto1n.png" width="220" height="96" style ="position: absolute; top: 10px; left: 550px;" onmouseover="this.src='presentation_button_animatedaf.png'" onmouseout="this.src='presentation_butto1n.png'" />
-</a>
-<a href="Details.html">
-<img src="details_button.png" width="220" height="96" style ="position: absolute; top: 10px; left: 800px;" onmouseover="this.src='details_button_animatedaf.png'" onmouseout="this.src='details_button.png'" />
-</a>
-<a href="Choix.html">
-<img src="Choix_button.png" width="220" height="96" style ="position: absolute; top: 10px; left: 1050px;" onmouseover="this.src='Choix_button_animatedaf.png'" onmouseout="this.src='choix_button.png'" />
-</a>
-</figure>
-<footer>
+</section>
+
 <img src="footer_web.png" width="1980" height="80" style ="position: absolute; top: 1250px; left:80px";/>
 <p style ="position: absolute; top: 1250px; left:600px">Projet de SIN TSTI2D / SmartBag-ike ©2020. Site par Emre Dilmac</p>
 </footer>
+<script>
+	var prevScrollpos = window.pageYOffset;
+	window.onscroll = function() {
+	var currentScrollPos = window.pageYOffset;
+	  if (currentScrollPos <= 440) {
+	    document.getElementById("menus").style.top = "0";
+	  } else {
+	    document.getElementById("menus").style.top = "-120px";
+	  }
+	  prevScrollpos = currentScrollPos;
+	}
+	</script>
 </body>
 
 

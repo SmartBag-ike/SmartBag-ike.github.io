@@ -17,9 +17,21 @@
 
 <body background="backgrounds/background1.jpg">
 <header>
-<img src="header web.png" width="1880" height="170" style ="position: absolute; top: 0px; left:245px";/>
+<nav>
+			<ul id="menus">	
+			<img src="header web.png" width="1880" height="170" style ="position: absolute; top: 0px; left:245px";/>
+			<a href="index.html">
+			<img id="icone-home" src="home_button.png" onmouseover="this.src='home_button_animatedaf.png'" onmouseout="this.src='home_button.png'"/>
+					<ul>
+						<a href="presentation.html"><div class="nav-menu" id="carre1">Présentation</div></a>  
+						<a href="details.html"><div class="nav-menu" id="carre2">Détails/Modèles</div></a> 
+						 <a href="choix.html"><div class="nav-menu" id="carre3">Choix</div></a>
+					</ul>
+			</ul>
+</nav>
 </header>
-<header>
+
+<section>
 <h3>Présentation</h3>
 <h4 style ="position: absolute; top: 1150px; margin-left: 270px; margin-right: auto;">Qu'est-ce que c'est SmartBag-ike en quelque phrases?</h4>
 <h5 style ="position: absolute; top: 1300px; margin-left: 330px; margin-right: auto;">SmartBag-ike, comme dit le nom, "Sac-à-dos intelligent vélo" est un sac-à-dos intéractif,</h5>
@@ -35,29 +47,7 @@
 <h5 style ="position: absolute; top: 2260px; margin-left: 280px; margin-right: auto;">La batterie peut se recharger par un panneau photovoltaïque ou par cable d'alimentation.</h5>
 <h4 style ="position: absolute; top: 2400px; margin-left: 500px; margin-right: auto;">Le projet est-il rentable et écologique?</h4>
 <h5 style ="position: absolute; top: 2600px; margin-left: 150px; margin-right: auto;">Oui, c'est rentable économiquement et pour savoir l'écoconception du projet, allez dans l'onglet "Choix matériel".</h5>
-</header>
-<figure>
-<a href="index.html">
-<img src="home_button.png" width="92" height="92" style ="position: absolute; top: 10px; left: 1350px;" onmouseover="this.src='home_button_animatedaf.png'" onmouseout="this.src='home_button.png'" />
-</a>
-<a href="presentation.html">
-<img src="presentation_butto1n.png" width="220" height="96" style ="position: absolute; top: 10px; left: 550px;" onmouseover="this.src='presentation_button_animatedaf.png'" onmouseout="this.src='presentation_butto1n.png'" />
-</a>
-<div class="home_button">
-<a href="index.html">
-<img src="home_button.png" width="92" height="92" style ="position: absolute; top: 10px; left: 1350px;" onmouseover="this.src='home_button_animatedaf.png'" onmouseout="this.src='home_button.png'"/>
-</a>
-</div>
-<a href="presentation.html">
-<img src="presentation_butto1n.png" width="220" height="96" style ="position: absolute; top: 10px; left: 550px;" onmouseover="this.src='presentation_button_animatedaf.png'" onmouseout="this.src='presentation_butto1n.png'" />
-</a>
-<a href="Details.html">
-<img src="details_button.png" width="220" height="96" style ="position: absolute; top: 10px; left: 800px;" onmouseover="this.src='details_button_animatedaf.png'" onmouseout="this.src='details_button.png'" />
-</a>
-<a href="Choix.html">
-<img src="Choix_button.png" width="220" height="96" style ="position: absolute; top: 10px; left: 1050px;" onmouseover="this.src='Choix_button_animatedaf.png'" onmouseout="this.src='choix_button.png'" />
-</a>
-</figure>
+<section>
 <video controls poster="images/thumb_001.png" height="800" width="1285" style="position: absolute; top: 350px; left:420px;">
 <source src="presentation001.mp4">
 <source src="presentation001.mov">

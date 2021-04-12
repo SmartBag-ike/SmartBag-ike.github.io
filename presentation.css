@@ -35,7 +35,9 @@ text-shadow: 8px 10px 20px black;
 display: block;
 padding-top: 60px;
 text-align: center;
-margin-right: auto;
+left: 0;
+right: 0;
+position: absolute;
 transition: transform 0.25s;
 }
 h3:hover
@@ -48,6 +50,8 @@ h4{
 font-family: SuperMario286;
 font-size: 62px;
 color: white;
+left: 0;
+right: 0;
 text-shadow: 11px 10px 10px black;
 -webkit-text-stroke-width: 2px;
 -webkit-text-stroke-color: black;
@@ -67,4 +71,58 @@ body{
 	 background-repeat: no-repeat;
 	 background-size: cover;
 	 background-attachment: fixed;
+}
+
+nav menus{
+	position: fixed;
+ 	list-style: none;
+	top: 0;
+	width: 100%;
+	height: 120px;
+	display: block;
+	z-index: 10;
+	transition: top 0.3s;
+}
+
+.nav-menu{
+background-color: rgba(0,0,0,1);
+border: solid 1px white;
+height: 50px;
+top: 30px;
+padding-top: 10px;
+font-size: 30px;
+text-align: center;
+color: white;
+position: absolute;
+font-family: SuperMario286;
+transition: all 0.4s ease-in-out;
+}
+#carre1{
+margin-left: 500px;
+width: 200px;
+}
+#carre2 {
+margin-left: 750px;
+width: 250px;
+}
+#carre3 {
+margin-left: 1050px;
+width: 200px;
+}
+.nav-menu:hover{
+border: solid 3px blue;
+transform: scale(1.1);
+color: blue;
+}
+#icone-home{
+height: 58px;
+width: 55px;
+margin-top: 10px;
+margin-left : 65%;
+position: absolute;
+transition: all 0.4s ease-in-out;
+}
+
+#icone-home:hover{
+transform: scale(1.2);
 }

@@ -1,7 +1,11 @@
 *{
 margin : 0;
 }
-
+#fond-header{
+position: absolute; 
+top: 0px;
+left: 245px;
+}
 @font-face { font-family: SuperMario286; src: url('SuperMario286.ttf'); } 
 p
 {
@@ -154,6 +158,11 @@ position: absolute;
 box-shadow: 0 10px 10px 0 rgba(0,0,0,0.25);
 } 
 @media (max-width : 950px){
+#fond-header{
+left: 60px;
+width: 870px;
+height: 110px;
+}
 p{
 font-size: 15px;
 }
@@ -170,25 +179,27 @@ left: 200px;
 transform: scale(0.7);
 }
 .nav-menu{
-height: 40px;
-font-size: 20px;
+height: 30px;
+font-size: 16px;
+top: 20px;
 }
 #carre1{
 margin-left: 100px;
-width: 120px;
+width: 110px;
 }
 #carre2 {
-margin-left: 240px;
-width: 175px;
+margin-left: 230px;
+width: 150px;
 }
 #carre3 {
-margin-left: 440px;
-width: 120px;
+margin-left: 400px;
+width: 90px;
 }
 #icone-home{
-height: 48px;
-width: 45px;
-margin-left : 650px;
+height: 38px;
+width: 35px;
+margin-left : 550px;
+margin-top: 20px;
 }
 #image-index-smartbag{
 top: 120px; 

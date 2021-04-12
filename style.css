@@ -171,12 +171,12 @@ font-size: 22px;
 top: 800px;
 }
 .slider{
-transform: scale(0.5);
+transform: scale(0.65);
 top: 200px;
 left: 200px;
 }
 .slider:hover{
-transform: scale(0.7);
+transform: scale(0.85);
 }
 .nav-menu{
 height: 30px;

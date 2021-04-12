@@ -13,13 +13,18 @@ p
 }
 h1{
    font-family: Comic Sans MS, sans-serif;
-   font-size: 40px;	
+   font-size: 40px;
+text-align: center;
+left: 0;
+right: 0;	
    color: white;
+top: 1080px;
    font-weight: bold;
    text-border: 6px black solid;
    text-shadow: 5px 3px 4px black;
    -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: black;
+position: absolute;
 }
 h2{
 font-family: Verdana;
@@ -36,6 +41,8 @@ body{
 .slider{
  width: 512px;
  height: 512px;
+ top: 400px;
+ left: 830px;
  background: url(logo1.png);
  box-shadow: 0 14px 14px 0 rgba(0,0,0,.25);
  margin: 100px auto;
@@ -110,9 +117,10 @@ margin-left: 1050px;
 width: 200px;
 }
 .nav-menu:hover{
-border: solid 3px blue;
+border: solid 3px;
+border-color: rgba(0,148,255,1);
 transform: scale(1.1);
-color: blue;
+color: rgba(0,148,255,1);
 }
 #icone-home{
 height: 58px;
@@ -126,13 +134,72 @@ transition: all 0.4s ease-in-out;
 #icone-home:hover{
 transform: scale(1.2);
 }
+#image-index-smartbag{
+top: 180px; 
+left: 550px;
+position: absolute;
+}
 footer{
 background-color : rgba(0,0,0,0.8);
 border: 1px solid;
+border-color : rgba(0,0,0,0);
+border-top-left-radius: 30px 30px;
+border-top-right-radius: 30px 30px;
 width: 1800px;
 height: 70px;
 padding-top: 20px;
 left: 150px;
 margin-top: 1300px;
 position: absolute;
+box-shadow: 0 10px 10px 0 rgba(0,0,0,0.25);
 } 
+@media (max-width : 950px){
+p{
+font-size: 15px;
+}
+h1{
+font-size: 22px;
+top: 800px;
+}
+.slider{
+transform: scale(0.5);
+top: 200px;
+left: 200px;
+}
+.slider:hover{
+transform: scale(0.7);
+}
+.nav-menu{
+height: 40px;
+font-size: 20px;
+}
+#carre1{
+margin-left: 100px;
+width: 120px;
+}
+#carre2 {
+margin-left: 240px;
+width: 175px;
+}
+#carre3 {
+margin-left: 440px;
+width: 120px;
+}
+#icone-home{
+height: 48px;
+width: 45px;
+margin-left : 650px;
+}
+#image-index-smartbag{
+top: 120px; 
+left: 0;
+transform: scale(0.5);
+}
+footer{
+width: 700px;
+height: 40px;
+left: 100px;
+margin-top: 1000px;
+}
+}
+

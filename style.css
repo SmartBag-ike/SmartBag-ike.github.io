@@ -1,3 +1,7 @@
+*{
+margin : 0;
+}
+
 @font-face { font-family: SuperMario286; src: url('SuperMario286.ttf'); } 
 p
 {
@@ -113,7 +117,7 @@ color: blue;
 #icone-home{
 height: 58px;
 width: 55px;
-margin-top: 10px;
+margin-top: 30px;
 margin-left : 1350px;
 position: absolute;
 transition: all 0.4s ease-in-out;
@@ -122,4 +126,13 @@ transition: all 0.4s ease-in-out;
 #icone-home:hover{
 transform: scale(1.2);
 }
-   
+footer{
+background-color : rgba(0,0,0,0.8);
+border: 1px solid;
+width: 1800px;
+height: 70px;
+padding-top: 20px;
+left: 150px;
+margin-top: 1300px;
+position: absolute;
+} 

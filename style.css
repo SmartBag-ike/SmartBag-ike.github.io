@@ -16,18 +16,18 @@ p
    -webkit-text-stroke-color: black;
 }
 h1{
-   font-family: Comic Sans MS, sans-serif;
-   font-size: 40px;
+font-family: Comic Sans MS, sans-serif;
+font-size: 40px;
 text-align: center;
 left: 0;
 right: 0;	
-   color: white;
+color: white;
 top: 1080px;
-   font-weight: bold;
-   text-border: 6px black solid;
-   text-shadow: 5px 3px 4px black;
-   -webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: black;
+font-weight: bold;
+text-border: 6px black solid;
+text-shadow: 5px 3px 4px black;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black;
 position: absolute;
 }
 h2{

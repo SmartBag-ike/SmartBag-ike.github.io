@@ -89,7 +89,7 @@ top: 340px;
 left:400px;
 position: absolute;
 }
-nav menus{
+#menus{
 	position: fixed;
  	list-style: none;
 	top: 0;

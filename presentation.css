@@ -39,7 +39,7 @@ h3{
 font-family: SuperMario286;
 font-size: 100px;
 color: white;
-text-shadow: 8px 10px 20px black;
+text-shadow: 8px 10px 10px black;
 display: block;
 text-align: center;
 margin-top: 150px;
@@ -195,11 +195,6 @@ width: 35px;
 margin-left : 550px;
 margin-top: 20px;
 }
-#image-index-smartbag{
-top: 120px; 
-left: 0;
-transform: scale(0.5);
-}
 h3{
 font-size: 70px;
 }
@@ -207,7 +202,6 @@ h4{
 font-size: 32px;
 text-shadow: 11px 10px 10px black;
 -webkit-text-stroke-width: 1px;
-
 }
 h5{
 font-size: 17px;
@@ -219,5 +213,64 @@ width: 700px;
 height: 40px;
 left: 100px;
 margin-top: 2800px;
+}
+}
+@media (max-width : 480px){
+#fond-header{
+left: 0px;
+width: 0;
+height: 0;
+}
+p{
+font-size: 10px;
+}
+video{
+top: 340px;
+left: 70px;
+width: 350px;
+height: 405px;
+}
+.nav-menu{
+height: 22px;
+font-size: 14px;
+padding-top: 5px;
+background-color: rgba(0,0,0,0);
+}
+.nav-menu:hover{
+border: solid 1.5px;
+transform: scale(1.1);
+background-color: rgba(0,0,0,0.3);
+}
+h3{
+font-size: 60px;
+}
+h4{
+font-size: 25px;
+text-shadow: 6px 5px 6px black;
+-webkit-text-stroke-width: 0.5px;
+}
+#carre1{
+margin-left: 0;
+left: 50px;
+width: 90px;
+}
+#carre2 {
+margin-left: 80px;
+width: 130px;
+}
+#carre3 {
+margin-left: 230px;
+width: 70px;
+}
+#icone-home{
+height: 28px;
+width: 25px;
+margin-left : 360px;
+margin-top: 20px;
+}
+footer{
+width: 400px;
+height: 40px;
+left: 30px;
 }
 }

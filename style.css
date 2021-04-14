@@ -168,7 +168,7 @@ p{
 font-size: 15px;
 }
 h1{
-font-size: 22px;
+font-size: 23px;
 top: 800px;
 }
 .slider{
@@ -203,7 +203,7 @@ margin-left : 550px;
 margin-top: 20px;
 }
 #image-index-smartbag{
-top: 120px;
+top: 100px;
 left: 0; 
 right: 250px;
 transform: scale(0.5);
@@ -231,7 +231,8 @@ top: 800px;
 .slider{
 transform: scale(0.55);
 top: 200px;
-left: 0px;
+left: 0;
+right: 10px;
 }
 .slider:hover{
 transform: scale(0.7);
@@ -249,20 +250,21 @@ background-color: rgba(0,0,0,0.3);
 }
 #carre1{
 margin-left: 0;
+left: 50px;
 width: 90px;
 }
 #carre2 {
-margin-left: 110px;
+margin-left: 80px;
 width: 130px;
 }
 #carre3 {
-margin-left: 260px;
+margin-left: 230px;
 width: 70px;
 }
 #icone-home{
 height: 28px;
 width: 25px;
-margin-left : 390px;
+margin-left : 360px;
 margin-top: 20px;
 }
 #image-index-smartbag{

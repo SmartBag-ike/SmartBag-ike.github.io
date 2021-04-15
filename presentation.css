@@ -139,9 +139,25 @@ margin-left : 1350px;
 position: absolute;
 transition: all 0.4s ease-in-out;
 }
-
 #icone-home:hover{
 transform: scale(1.2);
+}
+#textarea{
+width: 400px;
+height: 250px;
+font-family: SuperMario286;
+font-size: 40px;
+color: white;
+text-align: center;
+left: 600px;
+text-shadow: 11px 10px 10px black;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black;
+}
+#ecologie{
+top: 2500px;
+left: 1100px;
+position: absolute;
 }
 footer{
 background-color : rgba(0,0,0,0.8);
@@ -153,7 +169,7 @@ width: 1800px;
 height: 70px;
 padding-top: 20px;
 left: 150px;
-margin-top: 2800px;
+margin-top: 3000px;
 position: absolute;
 box-shadow: 0 10px 10px 0 rgba(0,0,0,0.25);
 }
@@ -208,6 +224,18 @@ font-size: 17px;
 text-shadow: 6px 5px 5px black;
 -webkit-text-stroke-width: 0.6px;
 }
+#textarea{
+width: 300px;
+height: 250px;
+font-size: 25px;
+left: 180px;
+}
+#ecologie{
+top: 2500px;
+left: 500px;
+height: 270px;
+width: 260px;
+}
 footer{
 width: 700px;
 height: 40px;
@@ -249,6 +277,12 @@ font-size: 25px;
 text-shadow: 6px 5px 6px black;
 -webkit-text-stroke-width: 0.5px;
 }
+#textarea{
+width: 300px;
+height: 250px;
+font-size: 22px;
+left: 80px;
+}
 #carre1{
 margin-left: 0;
 left: 50px;
@@ -268,9 +302,16 @@ width: 25px;
 margin-left : 360px;
 margin-top: 20px;
 }
+#ecologie{
+top: 2800px;
+left: 100px;
+height: 270px;
+width: 260px;
+}
 footer{
 width: 400px;
 height: 40px;
 left: 30px;
+margin-top: 3100px;
 }
 }
